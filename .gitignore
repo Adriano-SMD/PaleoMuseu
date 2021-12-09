@@ -1,0 +1,40 @@
+Binaries
+DerivedDataCache
+Intermediate
+Saved
+LocalDerivedDataCache
+.vscode
+.vs
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Windows
+ehthumbs.db
+Thumbs.db
+
+# Mac OS X
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# Do not ignore git files in the root of the repo.
+!/.git*
+
+# Do not ignore current project's `.uproject`.
+!/*.uproject
+
+# Allow any files from /RawContent dir, but Blender backups.
+# Any file in /RawContent dir will be managed by git lfs.
+!/RawContent/**/*
+*.blend1
