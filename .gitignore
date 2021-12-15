@@ -3,6 +3,7 @@ DerivedDataCache
 Intermediate
 Saved
 LocalDerivedDataCache
+Build
 .vscode
 .vs
 *.VC.db
@@ -13,6 +14,7 @@ LocalDerivedDataCache
 *.suo
 *.xcodeproj
 *.xcworkspace
+!/Build/Android/**/*
 
 # Windows
 ehthumbs.db
