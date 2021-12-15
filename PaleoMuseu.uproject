@@ -5,34 +5,27 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "WebBrowserWidget",
+			"Name": "XRVisualization",
+			"Enabled": false
+		},
+		{
+			"Name": "ResonanceAudio",
 			"Enabled": true
 		},
 		{
-			"Name": "EditorScriptingUtilities",
-			"Enabled": true
-		},
-		{
-			"Name": "GoogleARCore",
+			"Name": "OpenXR",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Android"
+				"Win32",
+				"Win64",
+				"Linux",
+				"Android",
+				"HoloLens"
 			]
-		},
-		{
-			"Name": "SteamController",
-			"Enabled": true
-		},
-		{
-			"Name": "HDRIBackdrop",
-			"Enabled": true
-		}
-	]
 		}
 	],
 	"TargetPlatforms": [
 		"Android",
-		"IOS",
 		"Linux",
 		"Mac",
 		"PS4",
